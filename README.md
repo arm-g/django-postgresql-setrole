@@ -10,13 +10,13 @@ Python 2.7.*
 1) Add `postgresql_setrole` to `INSTALLED_APPS`
 2) Add `SET_ROLE` in your database connection. 
 E.g.  
-`DATABASES = {
+```DATABASES = {
     "default": {
         ...,  # other settings
         "SET_ROLE": "owner",
     }.
-}`
-
+}
+```
 # Licence
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
