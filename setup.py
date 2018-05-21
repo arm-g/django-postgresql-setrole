@@ -23,7 +23,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: POSIX",
     ],
-    url="https://github.com/arm-g/django-postgresql-setrole",
+    url="https://github.com/teamable-software/django-postgresql-setrole.git",
     author="Armen Ghahramanyan (@teamable)",
     author_email="armen@teamable.com",
     description="Execute `SET ROLE` statement on every PostgreSQL connection",
